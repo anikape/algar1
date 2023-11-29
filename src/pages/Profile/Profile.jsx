@@ -20,8 +20,24 @@ const Profile = () => {
 
         <div className={style.card}>
 
-        </div>
+          <div className={style.logoPerfil}>
+            <img src='./assets2/yashina.svg' alt='' />
+            <p>Perfil</p>
+          </div>
 
+          <div className={style.contentPerfil}>
+            <p>Nome: Yáshina Gomes</p>
+            <p>E-mail: yashinagm@gmail.com </p>
+            <p>Telefone: (85) 99194-8378</p>
+          </div>
+
+          <div className={style.buttonContainer}>
+            <button className={style.button}>Editar</button>
+            <button className={style.button}>Excluir</button>
+          </div>
+        </div>
+       
+       
 
      </div>
 

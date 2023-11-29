@@ -36,3 +36,55 @@ border-radius: 38px;
 background: #FFF;
 margin: 35px auto;
 }
+
+.logoPerfil{
+  display: flex;
+  margin: 2rem;
+  padding: 2rem;
+}
+
+.logoPerfil p{
+  color: rgba(0, 0, 0, 0.83);
+  font-family: Inria Sans;
+  font-size: 32px;
+  font-weight: 700;
+  padding-left: 1em;
+  justify-content: end;
+}
+
+.contentPerfil{
+  margin-left: 150px;
+}
+
+.contentPerfil p{
+  color: rgba(0, 0, 0, 0.83);
+  font-family: Inria Sans;
+  font-size: 25px;
+  font-weight: 700;
+
+}
+
+.buttonContainer {
+  display: flex;
+  justify-content: flex-end; 
+  margin-top: 20px; 
+  margin-right: 2rem;
+    
+}
+
+.button{
+  width: 103px;
+  height: 30px;
+  border-radius: 29px;
+  background: #D9D9D9;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  color: rgba(0, 0, 0, 0.83);
+  font-family: Inria Sans;
+  font-size: 16px;
+  font-weight: 700;
+
+ }
+
+ .button:first-child {
+  margin-right: 10px;
+}
