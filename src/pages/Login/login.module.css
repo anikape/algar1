@@ -1,0 +1,99 @@
+/* seuarquivo.css */
+
+.outerContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.upperContainer {
+    border-radius: 24px;
+    background: #009FE3;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    width: 468px;
+    height: 590px;
+    flex-shrink: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
+.lowerContainer {
+    border-radius: 24px;
+    background: rgba(255, 154, 0, 0.94);
+    box-shadow: 5px 5px 2px 0px rgba(0, 0, 0, 0.25);
+    width: 641px;
+    height: 754px;
+    flex-shrink: 0;
+    margin-top: 20px;
+    /* Ajuste conforme necessário */
+    padding: 20px;
+}
+
+
+.title {
+    font-size: 1.5em;
+    margin-bottom: 150px;
+    
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    padding: 100px;
+    
+}
+
+.label {
+    margin-bottom: 15px;
+    
+}
+
+.input {
+    border-radius: 9px;
+    background: #FFF;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25) inset;
+    width: 318px;
+    height: 52px;
+    flex-shrink: 0;
+    padding: 8px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    width: 100%;
+    color: rgba(0, 104, 166, 0.33);
+    font-family: Inter;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    
+
+}
+
+.button {
+    box-shadow: 8px 8px 0px 0px rgba(0, 0, 0, 0.25);
+    color: #0068A6;
+    text-align: center;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 723;
+    line-height: normal;
+    padding: 10px;
+    background-color: #fefeff;
+    color: #0056b3;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    width: 318px;
+    height: 52px;
+    flex-shrink: 0;
+}
+
+.button:hover {
+    background-color: #0056b3;
+    color: #ffffff;
+}
