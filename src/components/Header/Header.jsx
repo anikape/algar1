@@ -17,8 +17,12 @@ const Header = () => {
         <Navbar.Nav className="ml-auto">
           <Nav.ItemLink href="#" active className="nav-item">
             <div>
+              <a href='/profile'>
               <img src={perfil} alt='' className="nav-icon" />
               <span className="nav-text">Profile</span>
+
+              </a>
+              
             </div>
           </Nav.ItemLink>
           <Nav.ItemLink href="#" className="nav-item">

@@ -1,17 +1,23 @@
 import React from 'react'
 import List from '../List/List'
 import About from '../About/About'
-import './Main.css'
+import style from './main.module.css'
+import Chat from '../Chat/Chat'
 
 
 
 function Main() {
   return (
-    <div className="containerMain">
-      <List />
-      <About />
+    <section className={style.containerMain}>
 
-    </div>
+      <div className={style.content}>
+        <List />
+        <Chat />
+      </div>
+      
+    <About />
+
+    </section>
   )
 }
 
