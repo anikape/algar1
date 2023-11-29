@@ -1,5 +1,7 @@
+// Login.js
 import React, { useState } from 'react';
 import style from './login.module.css'
+import loginImage from '../../assets/taletentos-1.png'; // Substitua pelo caminho real da sua imagem
 
 const Login = ({ onLogin }) => {
   const [username, setUsername] = useState('');
@@ -12,22 +14,42 @@ const Login = ({ onLogin }) => {
   };
 
   return (
-    <div className={style.container}>
-      <h2>Login</h2>
-      <input
-        type="text"
-        placeholder="Username"
-        value={username}
-        onChange={(e) => setUsername(e.target.value)}
-      />
-      <input
-        type="password"
-        placeholder="Password"
-        value={password}
-        onChange={(e) => setPassword(e.target.value)}
-      />
-      <a href='/home'>Login</a>
+    <section className={style.lowerContainer}>
+      <div className={style.outerContainer}>
+      <div className={style.upperContainer}>
+      <img src={loginImage} alt="Login" className={style.titleImage} />
+       <form className={style.form}>
+          <label className={style.label}>
+            
+            <input
+              type="text"
+              placeholder="Username"
+              value={username}
+              onChange={(e) => setUsername(e.target.value)}
+              className={style.input}
+            />
+          </label>
+  
+          <label className={style.label}>
+           
+            <input
+              type="password"
+              placeholder="........."
+              value={password}
+              onChange={(e) => setPassword(e.target.value)}
+              className={style.input}
+            />
+          </label>
+  
+          <button onClick={handleLogin} className={style.button}>
+            Login
+          </button>
+        </form>
+      </div>
+  
+      
     </div>
+  </section>
   );
 };
 
