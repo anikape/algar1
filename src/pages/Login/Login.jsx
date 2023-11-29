@@ -17,7 +17,10 @@ const Login = ({ onLogin }) => {
     <section className={style.lowerContainer}>
       <div className={style.outerContainer}>
       <div className={style.upperContainer}>
-      <img src={loginImage} alt="Login" className={style.titleImage} />
+        <div className={style.logo}>
+        <img src={loginImage} alt="Login" className={style.titleImage} />
+        </div>
+     
        <form className={style.form}>
           <label className={style.label}>
             
@@ -41,9 +44,9 @@ const Login = ({ onLogin }) => {
             />
           </label>
   
-          <button onClick={handleLogin} className={style.button}>
+          <a className={style.button} href='/home'>
             Login
-          </button>
+          </a>
         </form>
       </div>
   
