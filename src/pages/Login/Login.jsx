@@ -1,4 +1,3 @@
-// Login.js
 import React, { useState } from 'react';
 import style from './login.module.css'
 
@@ -27,7 +26,7 @@ const Login = ({ onLogin }) => {
         value={password}
         onChange={(e) => setPassword(e.target.value)}
       />
-      <button onClick={handleLogin}>Login</button>
+      <a href='/home'>Login</a>
     </div>
   );
 };
